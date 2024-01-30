@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+    margin: 0;  
+    padding: 0;  
+    margin-top: 50px;
+    color: white;
+
+ }
+
+header {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);  
+    padding: 10px;
+    position: fixed;  
+    width: 100%;  
+    top: 0;
+    z-index: 1000;  
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+
+.header-logo {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+h1 {
+    font-size: 100px;
+    padding-top: 300px;
+    color: white; 
+    font-family: Arial;
+    font-weight: bold;
+    text-shadow: 2px 3px 20px rgba(0, 0, 0, 0.802);  
+}
+
+h2 {
+    font-size: 40px;
+    color: white; 
+    font-family: Arial;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    color: white; 
+    font-family: Arial;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 0 0 16px rgba(165, 204, 239, 0.931), 0 0 20px rgba(165, 204, 239, 0.8), 0 0 30px rgba(165, 204, 239, 0.6);
+}
+
+nav {
+    display: flex;
+    padding-right: 30px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0px 26px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 3px 10px rgba(165, 204, 239, 0.931);  
+}
+
+nav li a:hover {
+    text-shadow: 0 0 16px rgba(165, 204, 239, 0.931), 0 0 20px rgba(165, 204, 239, 0.8), 0 0 30px rgba(165, 204, 239, 0.6);
+    transition: text-shadow 0.2s ease;  
+}
+
+
+nav li a.active {
+    text-shadow: 0 0 16px rgba(165, 204, 239, 0.931), 0 0 20px rgba(165, 204, 239, 0.8), 0 0 30px rgba(165, 204, 239, 0.6);
+
+}
+
+.nav-dropdown:hover .nav-dropdown-content {
+    display: block;
+}
+
+.nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1;
+}
+
+.nav-dropdown-content a {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.home-title {
+    background-image: url('rocket-bg.png');  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;  
+}
+
+.home-content {
+    width: 70%;
+    margin: auto;  
+    align-items: center;
+    text-align: left;
+}
+
+.home-page-mission {
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+}
