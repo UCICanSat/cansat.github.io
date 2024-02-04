@@ -1,7 +1,7 @@
 body {
     background-color: #1d2023;
     align-items: center;
-    text-align: center;
+    text-align: left;
     margin: 0;  
     padding: 0;  
     margin-top: 50px;
@@ -34,6 +34,7 @@ h1 {
     font-family: Arial;
     font-weight: bold;
     text-shadow: 2px 3px 20px rgba(0, 0, 0, 0.802);  
+    text-align: center;
 }
 
 h2 {
@@ -128,20 +129,21 @@ nav li a.active {
     align-items: center;
 }
 
-.home-page-mission {
+.home-page-about {
     width: 80%;
     padding: 20px;
+    padding-bottom: 60px;
     margin: 20px auto;
     font-size: 20px;
     align-items: center;
     color: white;
 }
 
-.home-page-mission h2 {
+.home-page-about h2 {
     text-align: left;
 }
 
-.home-page-mission p {
+.home-page-about p {
     text-align: left;
 }
 
