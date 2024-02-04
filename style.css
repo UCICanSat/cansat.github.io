@@ -145,6 +145,50 @@ nav li a.active {
     text-align: left;
 }
 
+.home-page-gallery {
+    padding: 20px;
+    padding-bottom: 80px;
+    background-color: rgb(39, 44, 49);
+    background-size: cover;
+}
+
+.home-page-gallery h2 {
+    width: 80%;
+    text-align: left;
+    margin: 40px auto;  
+}
+ 
+.gallery-panel-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.home-mission-panel {
+    flex: 0 0 calc(30% - 20px); 
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    background-color: rgb(36, 36, 40);
+    box-shadow: 0px 0px 20px rgba(189, 200, 218, 0.584);
+    border-radius: 10px;
+}
+
+.home-mission-panel:hover {
+    transform: scale(1.04);
+}
+
+.home-mission-panel img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.home-mission-panel h3 {
+    color: white;
+}
 
 .home-page-team {
     padding: 20px;
