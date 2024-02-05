@@ -126,3 +126,49 @@
     align-self: center;
     font-family: "Work Sans", Arial;
 }
+
+/* faq drop down */
+.faq-section {
+    width: 76%;
+    margin: auto;
+}
+.faq-subtitle {
+    margin-bottom: 1em;
+}
+
+/* question */
+.question {
+    background-color:  rgb(4, 1, 23);
+
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: "Work Sans", Arial;
+
+    cursor: pointer;
+    padding: .7em;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: .4s;
+}
+
+.active, .question:hover {
+    font-style: italic;
+}
+
+/* answer : hidden by default */
+.answer-box {
+    display: none;
+    overflow: hidden;
+    margin-left: 2.3em;
+}
+
+.answer {
+    color: white;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: "Work Sans", Arial;
+    margin-top: 0;
+}

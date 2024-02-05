@@ -167,7 +167,7 @@ footer {
 
 /* home page title */
 .home-title {
-    background-image: url('rocket-bg.png');  
+    background-image: url('./banner-images/rocket-bg.png');  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
