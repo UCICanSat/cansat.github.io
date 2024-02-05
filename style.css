@@ -5,7 +5,7 @@ body {
     margin: 0;  
     padding: 0;  
     margin-top: 50px;
-    color: black;
+    color: white;
 
  }
 
@@ -238,3 +238,54 @@ nav li a.active {
     margin-left: 24px;
     height: auto;
 }
+
+
+ 
+#copyrightText {
+   font-family: Arial, sans-serif;
+   width: auto;
+   font-size: 14pt;
+   color: #000000;
+}
+ 
+
+#emailButton {
+   display: inline-block;
+   margin-right: auto;
+}
+
+footer {
+    height: 160px;
+    display: flex;
+    background-color: #e5e5e5;  
+    align-items: center;
+    margin: auto;
+}
+
+.footer-content {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+ 
+.footer-content h3 {
+    font-size: 20px;
+    margin-right: 40px;  
+    text-decoration: none;
+}
+
+#emailButton {
+    align-items: center;
+    max-height: 50px; 
+}
+ 
+
+#emailButton:hover{
+    transform: scale(1.08);
+}
+
+
+#emailButton img {
+    max-height: 50px; 
+}
+
