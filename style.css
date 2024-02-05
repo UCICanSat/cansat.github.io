@@ -1,11 +1,11 @@
 body {
-    background-color: #1d2023;
+    background-color:  black;
     align-items: center;
     text-align: left;
     margin: 0;  
     padding: 0;  
     margin-top: 50px;
-    color: white;
+    color: black;
 
  }
 
@@ -44,33 +44,33 @@ h1 {
     color: white; 
     font-family: 'Bungee', Arial;
     font-weight: bold;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.802);  
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.802);  
     text-align: center;
     animation: fadeInUp 0.5s forwards;
 }
 
 h2 {
-    font-size: 38px;
-    color: white; 
+    font-size: 32px;
+    color: black; 
     font-family: Verdana, sans-serif;
     font-weight: bold;
 }
 
 h3 {
     font-size: 24px;
-    color: white; 
+    color: black; 
     font-family: Verdana, sans-serif;
     font-weight: bold;
 }
 
 p {
     font-size: 20px;
-    color: white; 
+    color: black; 
     font-family: Arial;
 }
 
 a {
-    color: white;
+    color: black;
     font-weight: bold;
     text-decoration: none;
 }
@@ -139,10 +139,11 @@ nav li a.active {
 .home-content {
     margin: auto;  
     align-items: center;
+    background-color:  rgb(248, 249, 249);
 }
 
 .home-page-about {
-    width: 80%;
+    width: 76%;
     padding: 20px;
     padding-bottom: 60px;
     margin: 20px auto;
@@ -160,14 +161,13 @@ nav li a.active {
 }
 
 .home-page-gallery {
-    padding: 20px;
     padding-bottom: 80px;
-    background-color: rgb(39, 44, 49);
+    background-color:  rgb(248, 249, 249);
     background-size: cover;
 }
 
 .home-page-gallery h2 {
-    width: 80%;
+    width: 76%;
     text-align: left;
     margin: 40px auto;  
 }
@@ -176,7 +176,7 @@ nav li a.active {
     display: flex;
     justify-content: space-between;
     margin: 20px auto;
-    width: 80%;
+    width: 76%;
 }
 
 .home-mission-panel {
@@ -185,10 +185,9 @@ nav li a.active {
     padding: 20px;
     margin-top: 20px;
     padding-bottom: 50px;
-    background-color: rgb(36, 36, 40);
-    box-shadow: 0px 0px 20px rgba(189, 200, 218, 0.584);
-    border-radius: 10px;
-}
+    background-color: rgb(51, 51, 54);
+    box-shadow: 0px 0px 20px rgba(43, 44, 45, 0.584);
+ }
 
 .home-mission-panel:hover {
     transform: scale(1.04);
@@ -197,15 +196,13 @@ nav li a.active {
 .home-mission-panel img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
-}
+ }
 
 .home-mission-panel h3 {
     color: white;
 }
 
 .home-page-team {
-    padding: 20px;
     background-color: rgb(248, 249, 249);
     padding-bottom: 80px;
     background-size: cover;
@@ -214,7 +211,7 @@ nav li a.active {
 }
 
 .team-container {
-    width: 80%;
+    width: 76%;
     margin: 0 auto;  
 }
 
