@@ -135,7 +135,8 @@ nav li a.active {
 footer {
     height: 160px;
     display: flex;
-    background-color: #474747;  
+    background-color:  rgb(4, 1, 23);
+    border-top: .05em white solid;
     align-items: center;
     margin: auto;
 }
