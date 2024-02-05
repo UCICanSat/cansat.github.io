@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <title>UCI CANSAT</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./join-style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee">
 </head>
 
 <body>
@@ -25,9 +28,8 @@
                         <a href="team-18.html">2017-2018</a>
                     </div>
                 </li>
-                <li><a href="join.html">Join</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="presentations.html">Presentations</a></li>
+                <li><a href="join.html">Join</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -35,42 +37,104 @@
 
 
     <div class="join-title">
-        <h1>JOIN CANSAT</h1>
+        <h1 class="join-title-text">JOIN CANSAT</h1>
     </div>
 
     <div class="join-content">
         <div class="disclaimer">
-            <p style="color: white">Applications are now <strong>closed</strong>.</p>
-            <p style="color: white">We will be opening up for applications again for Winter 2024. </p>
+            <p class="disclaimer-text">Applications are now <strong>closed</strong>.</p>
+            <p class="disclaimer-text">We will be opening up for applications again for Winter 2024. </p>
         </div>
 
         <div class="pathways-section">
-            <h2 style="color: white" class="pathways-title">Pathways</h2>
+            <h2 class="join-subtitle">Pathways</h2>
             <div class="pathways"> 
 
-                <div class="pathway-row">
+                <div class="first-pathways-row">
 
-                    <div class="pathway"></div>
-                    <div class="pathway"></div>
-                    <div class="pathway"></div>
+                    <div class="pathway">
+                        <img class="pathway-img" src="./pathways/mechinical.jpg"/>
+                        <h3 class="pathway-name">Mechanical</h3>
+                        <p class="pathway-description">The Mechanical team designs, assembles, and tests the mechanical structure and mechanisms of the CanSat. You’ll help ensure the mechanical structure meets requirements for weight, shock and impact resistance, and thermal performance.</p>
+                        <h4 class="pathway-skills-header">Required Skills:</h3>
+                        <ul class="required-skills">
+                            <li>Solidworks</li>
+                            <li>3D-printing and laser-cutting experience preferred (or plans to complete FabWorks training)</li>
+                            <li>Previous design experience, for example in ENGR 7A/B, MAE 106, MAE 188, MAE 195, or other projects.</li>
+                            <li>Machine shop or sheet metal shop training is useful, although not required</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="pathway">
+                        <img class="pathway-img" src="./pathways/mechinical.jpg"/>
+                        <h3 class="pathway-name">Electrical</h3>
+                        <p class="pathway-description">On the electrical team, you will help select battery and other power components to support all sensors and mechanical hardware. You’ll also design the CanSat PCB. Manage PCB manufacturing, assembly, and testing, likely in collaboation with IEEE@UCI.</p>
+                        <h4 class="pathway-skills-header">Required Skills:</h3>
+                        <ul class="required-skills">
+                            <li class="required-skill">Experience with Eagle or another electrical design program (or willingness to learn quickly)</li>
+                            <li>Good soldering and electrical troubleshooting skills; experience using lab equipment such as oscilloscopes and function generators.</li>
+                            <li>Students with previous electrical design and manufacturing experience will be preferred</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="pathway">
+                        <img class="pathway-img" src="./pathways/mechinical.jpg"/>
+                        <h3 class="pathway-name">Controls</h3>
+                        <p class="pathway-description">The Electrical team develops code to run on the CanSat microprocessor, which will be an Arduino or similar. Collaborate with Electrical to design a test bench which can simulate sensor inputs over I2C or SPI to the CanSat. This will be used for testing the CanSat’s response to various sensor readings and conditions. Computer Science and EECS students are also encouraged to apply!</p>
+                        <h4 class="pathway-skills-header">Required Skills:</h3>
+                        <ul class="required-skills">
+                            <li>Experience with Arduino, C, or C++</li>
+                            <li>MAE Majors: Completed MAE 60 (or EECS 70A) and MAE 106, or equivalent experience with circuits and closed loop control </li>
+                        </ul>
+                    </div>
                     
                 </div>
 
 
-                <div class="pathway-row">
-
-                    <div class="pathway"></div>
-                    <div class="pathway"></div>
+                <div class="second-pathways-row">
+                    <div class="pathway">
+                        <img class="pathway-img" src="./pathways/mechinical.jpg"/>
+                        <h3 class="pathway-name">Operations</h3>
+                        <p class="pathway-description">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.</p>
+                        <h4 class="pathway-skills-header">Required Skills: </h3>
+                        <ul class="required-skills">
+                            <li>Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.</li>
+                            <li>Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. </li>
+                            <li>Pellentesque commodo lacus at sodales sodales. </li>
+                        </ul>
+                    </div>
+                    <div class="pathway">
+                        <img class="pathway-img" src="./pathways/mechinical.jpg"/>
+                        <h3 class="pathway-name">Website Development</h3>
+                        <p class="pathway-description">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.</p>
+                        <h4 class="pathway-skills-header">Required Skills: </h3>
+                        <ul class="required-skills">
+                            <li>Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.</li>
+                            <li>Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. </li>
+                            <li>Pellentesque commodo lacus at sodales sodales. </li>
+                        </ul>
+                        </ul>
+                    </div>
             
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <div class="faq-section">
-        <h2 style="color: white" class="faq-title">Frequently Asked Questions</h2>
+        <div class="faq-section">
+            <h2 class="join-subtitle" class="faq-title">Frequently Asked Questions</h2>
+        </div>
+
     </div>
+
+    <footer>
+        <div class="footer-content">
+            <h3>HAVE QUESTIONS ABOUT CANSAT? SHOOT US AN EMAIL!</h3>
+            <a id="emailButton" href="mailto:cansatuci@gmail.com"><img src="email-button.png" alt="Email Logo"></a>
+        </div>         
+    </footer>
 
 </body>
 
