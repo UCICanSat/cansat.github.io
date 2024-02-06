@@ -51,7 +51,7 @@ h1 {
 
 h2 {
     font-size: 32px;
-    color: black; 
+    color: rgb(40, 63, 97); 
     font-family: Verdana, sans-serif;
     font-weight: bold;
     text-align: center;
@@ -59,19 +59,19 @@ h2 {
 
 h3 {
     font-size: 24px;
-    color: black; 
+    color: rgb(40, 63, 97); 
     font-family: Verdana, sans-serif;
     font-weight: bold;
 }
 
 p {
     font-size: 20px;
-    color: black; 
+    color: rgb(40, 63, 97); 
     font-family: Arial;
 }
 
 a {
-    color: black;
+    color: rgb(40, 63, 97); 
     font-weight: bold;
     text-decoration: none;
 }
@@ -179,13 +179,13 @@ footer {
 .home-content {
     margin: auto;  
     align-items: center;
-    background-color:  rgb(240, 240, 240);
+    background-color:  #f8fafc;
 }
 
 /* home page about container */
 .home-page-about {
     width: 76%;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 80px;
     margin: auto;
 }
@@ -194,7 +194,7 @@ footer {
 .home-page-gallery {
     padding-top: 20px;
     padding-bottom: 80px;
-    background-color:  rgb(221, 221, 221);
+    /* background-color:  rgb(221, 221, 221); */
 }
 
 .gallery-panel-container {
@@ -229,7 +229,7 @@ footer {
 
 /* home page team container */
 .home-page-team {
-    background-color:  rgb(221, 221, 221);
+    /* background-color:  rgb(221, 221, 221); */
     padding-top: 20px;
     padding-bottom: 80px;
     margin: auto;
@@ -238,6 +238,10 @@ footer {
 .team-container {
     width: 76%;
     margin: auto;  
+    background-color:  rgba(171, 180, 207, 0.405);
+    padding: 40px;
+    padding-bottom: 80px;
+    border-radius: 30px;
 }
 
 .home-page-team-info {
