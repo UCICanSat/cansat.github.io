@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
+:root {
+    --dusty-blue: rgb(166, 176, 200);
+
+    --dark-blue: rgb(4, 1, 23);
+    --dark-blue-faded: rgba(4, 1, 23, .80);
+
+    --light-blue: rgb(217, 222, 234);
+    --light-blue-solid: rgba(217, 222, 234, 1);
+    --light-blue-faded: rgba(217, 222, 234, .25);
+    
+}
+
 /* join page banner */
 .join-title {
-    background-image: linear-gradient(to bottom, rgba(4, 1, 23, .25), rgba(4, 1, 23, 1)),
+    background-image: linear-gradient(to bottom, var(--light-blue-faded), var(--light-blue-solid)),
     url('./banner-images/rocket-bg.avif');
     background-size: cover;
     background-position: center;
@@ -15,6 +27,7 @@
 .join-title-text {
     font-family: "Protest Strike", Arial;
     letter-spacing: .1em;
+    text-shadow: 3px 3px 8px var(--dark-blue-faded);   
 }
 
 
@@ -23,13 +36,13 @@
     margin-top: 0;
     margin: auto;  
     align-items: center;
-    background-color:  rgb(4, 1, 23);
+    background-color: var(--light-blue);
 }
 
 /* disclaimer bubble */
 .disclaimer {
-    background-color: rgba(23, 20, 44);
-    border: white solid; 
+    background-color: var(--dusty-blue);
+    border: .2em var(--dark-blue) solid; 
     border-radius: 35px;
     display: flex;
     flex-direction: column;
@@ -40,7 +53,7 @@
 }
 
 .disclaimer-text {
-    color: white;
+    color: var(--dark-blue);
     font-size: 1.8em;
     font-weight: 400;
     align-self: center;
@@ -54,7 +67,7 @@
 
 /* pathway section */
 .join-subtitle {
-    color: white;
+    color: var(--dark-blue);
     font-size: 2.4em;
     font-weight: 700;
     align-self: center;
@@ -95,7 +108,7 @@
 }
 
 .pathway-name {
-    color: white;
+    color: var(--dark-blue);
     font-size: 1.7em;
     font-weight: 700;
     align-self: center;
@@ -104,7 +117,7 @@
 }
 
 p {
-    color: white;
+    color: var(--dark-blue);
     font-size: 1em;
     font-weight: 400;
     align-self: center;
@@ -112,7 +125,7 @@ p {
 }
 
 .pathway-skills-header {
-    color: white;
+    color: var(--dark-blue);
     font-size: 1em;
     font-weight: 700;
     align-self: center;
@@ -120,7 +133,7 @@ p {
 }
 
 .required-skills {
-    color: white;
+    color: var(--dark-blue);
     font-size: 1em;
     font-weight: 400;
     align-self: center;
@@ -139,9 +152,9 @@ p {
 
 /* question */
 .question {
-    background-color:  rgb(4, 1, 23);
+    background-color:  var(--light-blue);
 
-    color: white;
+    color: var(--dark-blue);
     font-size: 1.5em;
     font-weight: 500;
     font-family: "Work Sans", Arial;
@@ -167,7 +180,7 @@ p {
 }
 
 .answer {
-    color: white;
+    color: var(--dark-blue);
     font-size: 1.1em;
     font-weight: 400;
     font-family: "Work Sans", Arial;
@@ -194,11 +207,10 @@ p {
 }
 
 .testimonial {
-    border: .2em white solid;
+    border: .2em var(--dark-blue) solid;
     border-radius: 1.5em;
     padding: 1em;
-    background-color: rgba(23, 20, 44);
-    /* width: 25%; */
+    background-color: var(--dusty-blue);
     white-space: normal;
     min-width: 20vw;
 }
@@ -212,7 +224,7 @@ p {
 }
 
 .testimonial-name {
-    color: white;
+    color: var(--dark-blue);
     font-size: 1.5em;
     font-weight: 500;
     font-family: "Work Sans", Arial;
@@ -221,7 +233,7 @@ p {
 }
 
 .testimonial-team {
-    color: white;
+    color: var(--dark-blue);
     font-size: 1em;
     font-weight: 400;
     font-family: "Work Sans", Arial;

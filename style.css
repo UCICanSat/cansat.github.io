@@ -100,6 +100,7 @@ nav li a{
     text-align: center;
     text-decoration: none;
     text-shadow: 2px 3px 10px rgba(165, 204, 239, 0.931);  
+    font-family: "Work Sans", san-serif;
 }
 
 nav li a:hover {
