@@ -103,7 +103,7 @@
     line-height: 0;
 }
 
-.pathway-description {
+p {
     color: white;
     font-size: 1em;
     font-weight: 400;
@@ -173,3 +173,60 @@
     font-family: "Work Sans", Arial;
     margin-top: 0;
 }
+
+/* testimonials */
+.testimonials-section {
+    width: 76%;
+    margin: auto;
+    padding-bottom: 2em;
+}
+
+.testimonials-subtitle {
+    margin-bottom: 1em;
+}
+
+.testimonials {
+    margin: auto;
+    display: flex;
+    gap: 2.3em;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.testimonial {
+    border: .2em white solid;
+    border-radius: 1.5em;
+    padding: 1em;
+    background-color: rgba(23, 20, 44);
+    /* width: 25%; */
+    white-space: normal;
+    min-width: 20vw;
+}
+
+.testimonial-img {
+    width: 150%; 
+    height: auto; 
+    clip-path: circle();
+    object-fit: cover;
+    margin-left: -25%;
+}
+
+.testimonial-name {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: "Work Sans", Arial;
+    margin: 0;
+    text-align: center;
+}
+
+.testimonial-team {
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: "Work Sans", Arial;
+    margin: 0;
+    margin-top: .3em;
+    text-align: center;
+}
+
