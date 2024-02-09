@@ -1,5 +1,5 @@
 .team-title {
-    background-image: linear-gradient(to bottom, rgba(96, 89, 134, 0.231), rgba(119, 117, 137, 0.61)), url("team-photo.jpg");
+    background-image: linear-gradient(to bottom, rgba(96, 89, 134, 0.231), rgba(119, 117, 137, 0.61)), url("../banner-images/team-photo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
