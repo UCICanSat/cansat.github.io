@@ -15,7 +15,7 @@
 .team-type-container {
     width: 76%;
     margin: auto;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-around;   */
