@@ -212,8 +212,12 @@ footer {
     margin-top: 20px;
     padding: 20px;
     padding-bottom: 50px;
-    background-color: rgb(51, 51, 54);
+    background-color: rgba(191, 199, 218, 0.823);
+    border: 5px solid;
+    border-radius: 20px;
+    border-color: rgb(40, 63, 97); 
     box-shadow: 0px 0px 20px rgba(43, 44, 45, 0.584);
+    color: rgb(40, 63, 97); 
  }
 
 .home-mission-panel:hover {
@@ -226,7 +230,8 @@ footer {
  }
 
 .home-mission-panel h3 {
-    color: white;
+    font-size: 28px;
+    color: rgb(40, 63, 97); 
 }
 
 /* home page team container */
