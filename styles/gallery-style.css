@@ -9,18 +9,31 @@
     background-color: rgb(255, 255, 255);
 }
 
+.gallery-content h2 {
+    padding-top: 60px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 .gallery-container {
     width: 76%;
     align-items: center;
     margin: auto;
-    padding-top: 80px;
     padding-bottom: 60px;
 }
 
 .gallery-item {
+    margin-top: 40px;
     gap: 60px;
     display: flex;
-    padding-bottom: 80px;
+}
+
+.gallery-item p {
+    margin-top: 0px;
+}
+
+.gallery-item li {
+    color: rgb(40, 63, 97); 
 }
 
 .gallery-item img {
@@ -34,5 +47,4 @@
     width: 50%;  
 }
 
- 
  
