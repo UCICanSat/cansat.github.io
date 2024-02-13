@@ -12,8 +12,8 @@
     
 }
 
-/* sponsers page main content */
-.sponsers-content, .form-content{
+/* sponsors page main content */
+.sponsors-content, .form-content{
     margin-top: 0;
     margin: auto;  
     align-items: center;
@@ -44,8 +44,8 @@
     line-height: 0;
 }
 
-/* sponsers page banner */
-.sponsers-title {
+/* sponsors page banner */
+.sponsors-title {
     background-image: linear-gradient(to bottom, var(--light-blue-faded), var(--light-blue-solid)),
     url('../banner-images/rocket-bg.avif');
     background-size: cover;
@@ -54,8 +54,8 @@
     height: 95vh;  
 }
 
-/* sponsers grid */
-.sponsers {
+/* sponsors grid */
+.sponsors {
     width: 76%;
     margin-left: auto;
     margin-right: auto;
@@ -66,7 +66,7 @@
     gap: 2.5em;
 }
 
-.sponser {
+.sponsor {
     border-radius: 1.5em;
     padding: 1em;
     white-space: normal;
@@ -74,7 +74,7 @@
     
 }
 
-.sponser-img {
+.sponsor-img {
     width: 100%; 
     height: auto; 
     object-fit: cover;
@@ -84,6 +84,6 @@
 
 }
 
-.sponser-img:hover {
+.sponsor-img:hover {
     transform: scale(1.15);
 }
