@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
     <link rel="stylesheet" type="text/css" href="./styles/sponsers-style.css">
+    <link rel="stylesheet" type="text/css" href="./styles/contact.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee">
 
@@ -35,8 +36,8 @@
                     <a href="about.html" class="active">For Sponsors</a>
                     <div class="nav-dropdown-content">
                         <a href="about.html">About Us</a>
-                        <a href="current-sponsors.html" class="active">Current Sponsors</a>
-                        <a href="sponsors-contact-us.html">Contact Us</a>
+                        <a href="current-sponsors.html">Current Sponsors</a>
+                        <a href="sponsors-contact-us.html" class="active">Contact Us</a>
                     </div>
                 </li>
                 <li><a href="gallery.html">Gallery</a></li>
@@ -48,43 +49,45 @@
 
 
     <div class="sponsers-title">
-        <h1 class="sponsers-title-text">CURRENT SPONSERS</h1>
+        <h1 class="sponsers-title-text">GET IN TOUCH</h1>
     </div>
 
-    <div class="sponsers-content">
-        <div class="thank-you">
-            <p class="thank-you-text">Special thank you to all of UCI CanSat's sponsers!</p>
-        </div>
+    <div class="form-content">
+        <form>
+            <div class="form-group">
+                <label class="label-title" for="nameInput">Name</label>
+                <input class="form-control input-box" id="nameInput" placeholder="">
+            </div>
 
-        <div class="sponsers">
-            <div class="sponser-box">
-                <a href="https://google.com" target=”_blank”><img src="sponsers/generic-logo-company.png" class="sponser-img"/></a>
+            <div class="form-group">
+                <label class="label-title" for="emailInput">Email address</label>
+                <input type="email" class="form-control input-box" id="emailInput" placeholder="">
             </div>
-            <div class="sponser-box">
-                <a href="https://google.com" target=”_blank”><img src="sponsers/generic-logo-company.png" class="sponser-img"/></a>
+
+            <div class="form-group">
+                <label class="label-title" for="OrganizationInput">Organization Name</label>
+                <input class="form-control input-box" id="OrganizationInput" placeholder="">
             </div>
-            <div class="sponser-box">
-                <a href="https://google.com" target=”_blank”><img src="sponsers/generic-logo-company.png" class="sponser-img"/></a>
+
+            <div class="form-group">
+                <label class="label-title" for="SubjectInput">Subject</label>
+                <input class="form-control input-box" id="SubjectInput" placeholder="">
             </div>
-            <div class="sponser-box">
-                <a href="https://google.com" target=”_blank”><img src="sponsers/generic-logo-company.png" class="sponser-img"/></a>
+
+            <div class="form-group">
+                <label class="label-title" for="messageInput">Message</label>
+                <textarea rows="5" class="form-control input-box" id="messageInput" placeholder=""></textarea>
             </div>
-            <div class="sponser-box">
-                <a href="https://google.com" target=”_blank”><img src="sponsers/generic-logo-company.png" class="sponser-img"/></a>
+
+            <div class="form-group">
+                <label class="label-title" for="CompanyWebsiteInput">Website</label>
+                <p class="company-disclaimer">If this message concerns sponsorship for UCI CanSat, please input your company's website here, if applicable.</p>
+                <input class="form-control input-box" id="CompanyWebsiteInput" placeholder="">
             </div>
-            <div class="sponser-box">
-                <a href="https://google.com" target=”_blank”><img src="sponsers/generic-logo-company.png" class="sponser-img"/></a>
-            </div>
-            <div class="sponser-box">
-                <a href="https://google.com" target=”_blank”><img src="sponsers/generic-logo-company.png" class="sponser-img"/></a>
-            </div>
-            <div class="sponser-box">
-                <a href="https://google.com" target=”_blank”><img src="sponsers/generic-logo-company.png" class="sponser-img"/></a>
-            </div>
-            <div class="sponser-box">
-                <a href="https://google.com" target=”_blank”><img src="sponsers/generic-logo-company.png" class="sponser-img"/></a>
-            </div>
-        </div>
+
+            <button type="submit" class="btn btn-primary submit-btn">Send</button>
+        </form>
+
     </div>
     
 
