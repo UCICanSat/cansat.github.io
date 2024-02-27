@@ -66,7 +66,7 @@ h3 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(40, 63, 97); 
     font-family: Arial;
 }
@@ -303,4 +303,12 @@ footer {
     max-width: auto;
     max-height: 90px;
     margin-bottom: -1em;
+}
+
+.home-content p {
+    font-size: 18px;
+}
+
+.testimonials-section p {
+    font-size: 1em;
 }
