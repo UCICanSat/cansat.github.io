@@ -133,41 +133,6 @@ nav li a.active {
     font-size: 20px;
 }
 
-/* footer content */
-footer {
-    height: 160px;
-    display: flex;
-    background-color:  rgb(4, 1, 23);
-    border-top: .05em white solid;
-    align-items: center;
-    margin: auto;
-}
-
-.footer-content {
-    display: flex;
-    margin: auto;
-    align-items: center;
-}
- 
-.footer-content h3 {
-    font-size: 20px;
-    color: white;
-    margin-right: 40px;  
-}
-
-#emailButton {
-    align-items: center;
-    max-height: 50px; 
-}
- 
-#emailButton:hover{
-    transform: scale(1.08);
-}
-
-#emailButton img {
-    max-height: 50px; 
-}
-
 /* home page title */
 .home-title {
     background-image: linear-gradient(to bottom, rgba(217, 213, 232, 0.135), rgba(139, 156, 205, 0.341)), url("../banner-images/rocket-bg.png");
@@ -286,4 +251,55 @@ footer {
     max-width: 100%; 
     max-height: 250px;  
     margin: 6px;
+}
+
+/* footer content */
+footer {
+    height: 160px;
+    display: flex;
+    background-color:  rgb(4, 1, 23);
+    border-top: .05em white solid;
+    align-items: center;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-content {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    align-content: space-between;
+    gap: 15vw;
+}
+
+.footer-link, .footer-left p, .footer-center p {
+    font-family: "Work Sans", Arial;
+    color: rgb(217, 222, 234);
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+}
+ 
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+    gap: 60px;
+}
+
+.links-left, .links-right {
+    display: flex;
+    flex-direction: column;
+    line-height: 300%;
+}
+
+.footer-logo {
+    max-width: auto;
+    max-height: 90px;
+    margin-bottom: -1em;
 }
