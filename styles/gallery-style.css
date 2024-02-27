@@ -34,6 +34,8 @@
 
 .gallery-item li {
     color: rgb(40, 63, 97); 
+    font-size: 20px;
+    font-family: Arial;
 }
 
 .gallery-item img {
@@ -41,6 +43,17 @@
     height: auto;
     max-height: 500px;
     display: block;
+}
+
+.gallery-item-img-only img {
+    width: 100%; 
+    height: auto;
+    max-height: 500px;
+    display: block;
+}
+
+.gallery-item-3-items {
+    width: 33%;  
 }
 
 .gallery-item-description {
