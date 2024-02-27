@@ -177,7 +177,8 @@ nav li a.active {
     margin-top: 20px;
     padding: 20px;
     padding-bottom: 50px;
-    background-color: rgba(191, 199, 218, 0.823);
+    /* background-color: rgba(191, 199, 218, 0.823); */
+    background-color: rgba(210, 218, 235, 0.823);
     border: 5px solid;
     border-radius: 20px;
     border-color: rgb(40, 63, 97); 
