@@ -91,7 +91,7 @@
     border: .2em solid var(--dark-dusty-blue);
     border-radius: 1.5em;
 
-    background-color: var(--dusty-blue);
+    background-color: rgb(240, 244, 252);
     white-space: normal;
     min-width: 20vw;
     box-shadow: 6px 6px 8px var(--dusty-blue);
