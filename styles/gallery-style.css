@@ -1,3 +1,6 @@
+p, li {
+    font-family: "Work Sans", Arial;
+}
 .gallery-title {
     background-image: linear-gradient(to bottom, rgba(217, 213, 232, 0.135), rgba(139, 156, 205, 0.341));
     background-size: cover;
