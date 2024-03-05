@@ -1,38 +1,12 @@
-:root {
-    --dusty-blue: rgb(166, 176, 200);
-
-    --dark-blue: rgb(4, 1, 23);
-    --dark-blue-faded: rgba(4, 1, 23, .80);
-
-    --light-blue: rgb(217, 222, 234);
-    --light-blue-solid: rgba(217, 222, 234, 1);
-    --light-blue-faded: rgba(217, 222, 234, .25);
-    
-}
-
-/* join page banner */
 .gallery-title {
-    background-image: linear-gradient(to bottom, var(--light-blue-faded), var(--light-blue-solid)),
-    url('../banner-images/rocket-bg.avif');
+    background-image: linear-gradient(to bottom, rgba(217, 213, 232, 0.135), rgba(139, 156, 205, 0.341));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 95vh;  
 }
-
-.definition {
-    background-color: var(--dusty-blue);
-    border: .2em var(--dark-blue) solid; 
-    border-radius: 35px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 2em;
-    padding-bottom: 1em;
-    margin: auto;
-}
 .gallery-content {
-    background-color: var(--light-blue);
+    background-color: rgb(255, 255, 255);
 }
 
 .gallery-content h2 {
@@ -60,7 +34,7 @@
 
 .gallery-item li {
     color: rgb(40, 63, 97); 
-    font-size: 20px;
+    font-size: 18px;
     font-family: Arial;
 }
 
@@ -86,7 +60,4 @@
     width: 50%;  
 }
 
-p, ul {
-    font-family: "Work Sans", Arial;
-}
  
