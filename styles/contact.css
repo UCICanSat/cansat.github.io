@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 :root {
-    --dusty-blue: rgb(166, 176, 200);
-
-    --dark-blue: rgb(4, 1, 23);
-    --dark-blue-faded: rgba(4, 1, 23, .80);
-
-    --light-blue: rgb(217, 222, 234);
-    --light-blue-solid: rgba(217, 222, 234, 1);
-    --light-blue-faded: rgba(217, 222, 234, .25);
-    
+    --dark-background-color: black;
+    --background-color: #f8fafc;
+    --primary-color: white;
+    --secondary-color: rgb(40, 63, 97);
+    --accent-color: rgba(165, 204, 239, 0.931);
+    --dark-accent-color: rgba(40, 51, 93, 0.802);
+    --nav-bg-color: rgba(0, 0, 0, 0.75);
+    --button-bg-color: rgba(217, 213, 232, 0.135);
+    --button-text-color: rgba(139, 156, 205, 0.341);
+    --panel-bg-color: rgba(210, 218, 235, 0.823);
+    --panel-border-color: rgb(40, 63, 97);
+    --shadow-color: rgba(43, 44, 45, 0.584);
+    --footer-bg-color: rgb(4, 1, 23);
+    --footer-text-color: rgba(217, 222, 234, 1);
+    --footer-text-color-faded: rgba(217, 222, 234, .25);
+    --container-background: rgba(171, 180, 207, .405);
+    --box-color: rgb(166, 176, 200);
+    --box-border-color: rgb(91, 100, 122);
 }
+
 
 /* form */
 .form-content {
@@ -27,7 +37,7 @@
 }
 
 .label-title {
-    color: var(--dark-blue);
+    color: var(--footer-bg-color);
     margin-top: .75em;
 
     font-family: Work Sans, sans-serif;
@@ -42,7 +52,7 @@
     width: 75vw;
     height: 3em;
     margin-top: .25em;
-    border: .1em var(--dusty-blue) solid ;
+    border: .1em var(--box-color) solid ;
     font-family: Work Sans, sans-serif;
     font-size: 1em;
     font-style: normal;
@@ -54,7 +64,7 @@
 }
 
 .input-box:focus {
-    outline: .2em solid var(--dusty-blue);
+    outline: .2em solid var(--box-color);
 }
 
 #messageInput {
@@ -77,7 +87,7 @@
 .submit-btn {
     width: 55vw;
     height: 3em;
-    background-color: var(--dusty-blue);
+    background-color: var(--box-color);
     border: 0 solid white;
     margin: 1.5em auto;
 
@@ -98,7 +108,7 @@
 .submit-btn:hover {
     width: 55vw;
     height: 3em;
-    background-color: var(--dark-blue);
+    background-color: var(--footer-bg-color);
     color: white;
     border: 0 solid white;
 }
@@ -106,7 +116,7 @@
 .submit-btn:active {
     width: 55vw;
     height: 3em;
-    background-color: var(--dark-blue);
+    background-color: var(--footer-bg-color);
     color: white;
-    border: .1em solid var(--dusty-blue);
+    border: .1em solid var(--box-color);
 }

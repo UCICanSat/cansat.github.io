@@ -1,15 +1,37 @@
+:root {
+    --dark-background-color: black;
+    --background-color: #f8fafc;
+    --primary-color: white;
+    --secondary-color: rgb(40, 63, 97);
+    --accent-color: rgba(165, 204, 239, 0.931);
+    --dark-accent-color: rgba(40, 51, 93, 0.802);
+    --nav-bg-color: rgba(0, 0, 0, 0.75);
+    --button-bg-color: rgba(217, 213, 232, 0.135);
+    --button-text-color: rgba(139, 156, 205, 0.341);
+    --panel-bg-color: rgba(210, 218, 235, 0.823);
+    --panel-border-color: rgb(40, 63, 97);
+    --shadow-color: rgba(43, 44, 45, 0.584);
+    --footer-bg-color: rgb(4, 1, 23);
+    --footer-text-color: rgba(217, 222, 234, 1);
+    --footer-text-color-faded: rgba(217, 222, 234, .25);
+    --container-background: rgba(171, 180, 207, .405);
+    --box-color: rgb(166, 176, 200);
+    --box-border-color: rgb(91, 100, 122);
+}
+
+
 p, li {
     font-family: "Work Sans", Arial;
 }
 .gallery-title {
-    background-image: linear-gradient(to bottom, rgba(217, 213, 232, 0.135), rgba(139, 156, 205, 0.341));
+    background-image: linear-gradient(to bottom, var(--button-bg-color), var(--button-text-color));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 95vh;  
 }
 .gallery-content {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--background-color);
 }
 
 .gallery-content h2 {
@@ -36,7 +58,7 @@ p, li {
 }
 
 .gallery-item li {
-    color: rgb(40, 63, 97); 
+    color: var(secondary-color); 
     font-size: 18px;
     font-family: Arial;
 }

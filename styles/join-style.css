@@ -1,21 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
+
 :root {
-    --dusty-blue: rgb(166, 176, 200);
-    --dark-dusty-blue: rgb(91, 100, 122);
-
-    --dark-blue: rgb(4, 1, 23);
-    --dark-blue-faded: rgba(4, 1, 23, .80);
-
-    --light-blue: rgb(217, 222, 234);
-    --light-blue-solid: rgba(217, 222, 234, 1);
-    --light-blue-faded: rgba(217, 222, 234, .25);
-    
+    --dark-background-color: black;
+    --background-color: #f8fafc;
+    --primary-color: white;
+    --secondary-color: rgb(40, 63, 97);
+    --accent-color: rgba(165, 204, 239, 0.931);
+    --dark-accent-color: rgba(40, 51, 93, 0.802);
+    --nav-bg-color: rgba(0, 0, 0, 0.75);
+    --button-bg-color: rgba(217, 213, 232, 0.135);
+    --button-text-color: rgba(139, 156, 205, 0.341);
+    --panel-bg-color: rgba(210, 218, 235, 0.823);
+    --panel-border-color: rgb(40, 63, 97);
+    --shadow-color: rgba(43, 44, 45, 0.584);
+    --footer-bg-color: rgb(4, 1, 23);
+    --footer-text-color: rgba(217, 222, 234, 1);
+    --footer-text-color-faded: rgba(217, 222, 234, .25);
+    --container-background: rgba(171, 180, 207, .405);
+    --box-color: rgb(166, 176, 200);
+    --box-border-color: rgb(91, 100, 122);
 }
 
 /* join page banner */
 .join-title {
-    background-image: linear-gradient(to bottom, var(--light-blue-faded), var(--light-blue-solid)),
+    background-image: linear-gradient(to bottom, var(--footer-text-color-faded), var(--footer-text-color)),
     url('../banner-images/rocket-bg.avif');
     background-size: cover;
     background-position: center;
@@ -29,13 +38,13 @@
     margin-top: 0;
     margin: auto;  
     align-items: center;
-    background-color: var(--light-blue);
+    background-color: var(--footer-text-color);
 }
 
 /* disclaimer bubble */
 .disclaimer {
-    background-color: var(--dusty-blue);
-    border: .2em var(--dark-blue) solid; 
+    background-color: var(--box-color);
+    border: .2em var(--footer-bg-color) solid; 
     border-radius: 35px;
     display: flex;
     flex-direction: column;
@@ -46,7 +55,7 @@
 }
 
 .disclaimer-text {
-    color: var(--dark-blue);
+    color: var(--footer-bg-color);
     font-size: 1.8em;
     font-weight: 400;
     align-self: center;
@@ -60,7 +69,7 @@
 
 /* pathway section */
 .join-subtitle {
-    color: var(--dark-blue);
+    color: var(--footer-bg-color);
     font-size: 2.4em;
     font-weight: 700;
     align-self: center;
@@ -88,13 +97,13 @@
     justify-content: left;
     padding: 1em;
 
-    border: .2em solid var(--dark-dusty-blue);
+    border: .2em solid var(--box-border-color);
     border-radius: 1.5em;
 
     background-color: rgb(240, 244, 252);
     white-space: normal;
     min-width: 20vw;
-    box-shadow: 6px 6px 8px var(--dusty-blue);
+    box-shadow: 6px 6px 8px var(--box-color);
     margin-bottom: 1em;
 }
 .pathway:hover {
@@ -107,34 +116,27 @@
 }
 
 .pathway-name {
-    color: var(--dark-blue);
-    font-size: 1.7em;
+    color: var(--footer-bg-color);
+    font-size: 1.4em;
     font-weight: 700;
     align-self: center;
     font-family: "Work Sans", Arial;
     line-height: 0;
 }
 
-p {
-    color: var(--dark-blue);
-    font-size: 1em;
+p, .required-skills {
+    color: var(--footer-bg-color);
+    font-size: .8em;
     font-weight: 400;
     align-self: center;
     font-family: "Work Sans", Arial;
 }
 
 .pathway-skills-header {
-    color: var(--dark-blue);
+    color: var(--footer-bg-color);
     font-size: 1em;
+    line-height: 0;
     font-weight: 700;
-    align-self: center;
-    font-family: "Work Sans", Arial;
-}
-
-.required-skills {
-    color: var(--dark-blue);
-    font-size: 1em;
-    font-weight: 400;
     align-self: center;
     font-family: "Work Sans", Arial;
 }
@@ -151,9 +153,9 @@ p {
 
 /* question */
 .question {
-    background-color:  var(--light-blue);
+    background-color:  var(--footer-text-color);
 
-    color: var(--dark-blue);
+    color: var(--footer-bg-color);
     font-size: 1.5em;
     font-weight: 500;
     font-family: "Work Sans", Arial;
@@ -179,7 +181,7 @@ p {
 }
 
 .answer {
-    color: var(--dark-blue);
+    color: var(--footer-bg-color);
     font-size: 1.1em;
     font-weight: 400;
     font-family: "Work Sans", Arial;
@@ -188,7 +190,7 @@ p {
 
 /* testimonials */
 .testimonials-header {
-    color: var(--dark-blue);
+    color: var(--footer-bg-color);
     font-size: 2.4em;
     font-weight: 700;
     align-self: center;
@@ -214,13 +216,13 @@ p {
 }
 
 .testimonial {
-    border: .2em var(--dark-blue) solid;
+    border: .2em var(--footer-bg-color) solid;
     border-radius: 1.5em;
     padding: 1em;
-    background-color: var(--dusty-blue);
+    background-color: var(--box-color);
     white-space: normal;
     min-width: 20vw;
-    box-shadow: 6px 6px 8px var(--dusty-blue);
+    box-shadow: 6px 6px 8px var(--box-color);
     margin-bottom: 1em;
 }
 
@@ -234,7 +236,7 @@ p {
 }
 
 .testimonial-name {
-    color: var(--dark-blue);
+    color: var(--footer-bg-color);
     font-size: 1.5em;
     font-weight: 500;
     font-family: "Work Sans", Arial;
@@ -243,7 +245,7 @@ p {
 }
 
 .testimonial-team {
-    color: var(--dark-blue);
+    color: var(--footer-bg-color);
     font-size: 1em;
     font-weight: 400;
     font-family: "Work Sans", Arial;
