@@ -1,4 +1,4 @@
-body {
+html, body {
     background-color:  black;
     align-items: center;
     text-align: left;
@@ -6,7 +6,7 @@ body {
     padding: 0;  
     margin-top: 50px;
     color: white;
-
+    cursor:url(../rocket.png), auto;
  }
 
  @keyframes fadeInUp {
@@ -75,6 +75,7 @@ a {
     color: rgb(40, 63, 97); 
     font-weight: bold;
     text-decoration: none;
+    cursor:url(../rocket-pointer.png), auto;
 }
 
 a:hover {
