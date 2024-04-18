@@ -233,6 +233,19 @@ nav li a.active {
     border-radius: 30px;
 }
 
+.team-container-white {
+    width: 76%;
+    margin: auto;  
+    background-color: white;
+    border: 5px solid;
+
+    border-radius: 20px;
+    border-color: var(--box-color); 
+    padding: 40px;
+    padding-bottom: 80px;
+    border-radius: 30px;
+}
+
 .home-page-team-info {
     display: flex;
     justify-content: space-between;
@@ -329,9 +342,9 @@ footer {
     font-size: 1em;
 }
 
-
+/* 
 @media screen and (max-width: 480px) {
     .home-page-about {
         width: 100%;
     }
-}
+} */
