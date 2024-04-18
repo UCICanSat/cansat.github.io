@@ -328,3 +328,10 @@ footer {
 .testimonials-section p {
     font-size: 1em;
 }
+
+
+@media screen and (max-width: 480px) {
+    .home-page-about {
+        width: 100%;
+    }
+}
