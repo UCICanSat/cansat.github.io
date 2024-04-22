@@ -17,90 +17,6 @@
     --nearly-white: rgba(242, 244, 251, 1);
 }
 
-html, body {
-    background-color: var(--blue-white);
-    align-items: center;
-    text-align: left;
-    margin: 0;  
-    padding: 0;  
-    margin-top: .1em;
-    color: var(--nearly-white);
-    cursor:url(../rocket.png), auto;
-}
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-header {
-    height: 50px;
-    background-color: var(--dark-navy-faded);  
-    padding: 10px;
-    position: fixed;  
-    width: 100%;  
-    top: 0;
-    z-index: 1000;  
-    display: flex;
-    justify-content: space-between;  
-    align-items: center;
-}
-
-.subheader, h2 {
-    color: var(--dark-navy);
-    font-size: 2.4em;
-    font-weight: 700;
-    align-self: center;
-    font-family: "Work Sans", Arial;
-    text-align: center;
-}
-
-.header-logo {
-    max-width: 50px;
-    max-height: 50px;
-}
-
-h1 {
-    font-size: 100px;
-    padding-top: 2.7em;
-    color: var(--primary-color); 
-    font-family: 'Bungee', Arial;
-    font-weight: bold;
-    text-shadow: 2px 2px 6px var(--dark-navy-faded);   
-    text-align: center;
-    animation: fadeInUp 0.5s forwards;
-}
-
-h3 {
-    font-size: 24px;
-    color: var(--light-blue);
-    font-family: Verdana, sans-serif;
-    font-weight: bold;
-}
-
-p {
-    font-size: 18px;
-    color: var(--baby-blue); 
-    font-family: Arial;
-}
-
-a {
-    color: var(--baby-blue); 
-    font-weight: bold;
-    text-decoration: none;
-    cursor:url(../rocket-pointer.png), auto;
-}
-
-a:hover {
-    text-shadow: 0 0 16px var(--baby-blue), 0 0 20px var(--baby-blue), 0 0 30px var(--baby-blue);
-}
-
 /* home page title */
 .home-title {
     background-image: linear-gradient(to bottom, var(--baby-blue), var(--dark-navy)), url("../banner-images/rocket-bg.png");
@@ -150,7 +66,6 @@ a:hover {
     border-color: var(--dark-navy); 
     box-shadow: 0px 0px 20px var(--dark-navy-pale);
     color: var(--baby-blue); 
-    color: red;
 }
 
 .home-mission-panel:hover {
@@ -228,10 +143,3 @@ a:hover {
     max-height: 250px;  
     margin: 6px;
 }
-
-/* 
-@media screen and (max-width: 480px) {
-    .home-page-about {
-        width: 100%;
-    }
-} */

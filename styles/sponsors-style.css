@@ -1,27 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
-
 :root {
-    --dark-background-color: black;
-    --background-color: #f8fafc;
-    --primary-color: white;
-    --secondary-color: rgb(40, 63, 97);
-    --accent-color: rgba(165, 204, 239, 0.931);
-    --dark-accent-color: rgba(40, 51, 93, 0.802);
-    --nav-bg-color: rgba(0, 0, 0, 0.75);
-    --button-bg-color: rgba(217, 213, 232, 0.135);
-    --button-text-color: rgba(139, 156, 205, 0.341);
-    --panel-bg-color: rgba(210, 218, 235, 0.823);
-    --panel-border-color: rgb(40, 63, 97);
-    --shadow-color: rgba(43, 44, 45, 0.584);
-    --footer-bg-color: rgb(4, 1, 23);
+    --dark-navy: rgba(18, 29, 57, 1);
+    --dark-navy-faded: rgba(18, 29, 57, .6);
+    --dark-navy-pale: rgba(18, 29, 57, .35);
 
-    --footer-text-color: rgba(217, 222, 234, 1);
-    --footer-text-color-faded: rgba(217, 222, 234, .25);
+    --light-blue: rgba(111, 123, 155, 1);
+    --light-blue-faded: rgba(111, 123, 155, .6);
+    --light-blue-pale: rgba(111, 123, 155 .35);
 
-    --container-background: rgba(171, 180, 207, .405);
-    --box-color: rgb(166, 176, 200);
-    --box-border-color: rgb(91, 100, 122);
+
+    --baby-blue: rgba(175, 185, 210, 1);
+    --baby-blue-faded: rgba(175, 185, 210, .7);
+    --baby-blue-pale: rgba(175, 185, 210 .35);
+
+    --blue-white: rgba(226, 232, 244, 1);
+
+    --nearly-white: rgba(242, 244, 251, 1);
 }
 
 /* sponsors page main content */
@@ -29,7 +22,7 @@
     margin-top: 0;
     margin: auto;  
     align-items: center;
-    background-color: var(--footer-text-color);
+    background-color: var(--blue-white);
     padding-bottom: 2em;
 }
 
@@ -37,7 +30,7 @@
 /* thank you bubble */
 .bubble {
     background-color: var(--dusty-blue);
-    border: .2em var(--footer-bg-color) solid; 
+    border: .2em var(--dark-navy) solid; 
     border-radius: 35px;
     display: flex;
     flex-direction: column;
@@ -48,7 +41,7 @@
 }
 
 .bubble-text {
-    color: var(--footer-bg-color);
+    color: var(--dark-navy);
     font-size: 1.8em;
     font-weight: 400;
     align-self: center;
@@ -58,7 +51,7 @@
 
 /* sponsors page banner */
 .sponsors-title {
-    background-image: linear-gradient(to bottom, var(--footer-text-color-faded), var(--footer-text-color)),
+    background-image: linear-gradient(to bottom, var(--dark-navy), var(--blue-white)),
     url('../banner-images/rocket-bg.avif');
     background-size: cover;
     background-position: center;
@@ -91,7 +84,7 @@
     height: auto; 
     object-fit: cover;
     border-radius: 1em;
-    border: .2em var(--footer-bg-color) solid;
+    border: .2em var(--dark-navy) solid;
     box-shadow: 0px 0px 10px rgba(43, 44, 45, 0.584);
 
 }

@@ -1,24 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
 :root {
-    --dark-background-color: black;
-    --background-color: #f8fafc;
-    --primary-color: white;
-    --secondary-color: rgb(40, 63, 97);
-    --accent-color: rgba(165, 204, 239, 0.931);
-    --dark-accent-color: rgba(40, 51, 93, 0.802);
-    --nav-bg-color: rgba(0, 0, 0, 0.75);
-    --button-bg-color: rgba(217, 213, 232, 0.135);
-    --button-text-color: rgba(139, 156, 205, 0.341);
-    --panel-bg-color: rgba(210, 218, 235, 0.823);
-    --panel-border-color: rgb(40, 63, 97);
-    --shadow-color: rgba(43, 44, 45, 0.584);
-    --footer-bg-color: rgb(4, 1, 23);
-    --footer-text-color: rgba(217, 222, 234, 1);
-    --footer-text-color-faded: rgba(217, 222, 234, .25);
-    --container-background: rgba(171, 180, 207, .405);
-    --box-color: rgb(166, 176, 200);
-    --box-border-color: rgb(91, 100, 122);
+    --dark-navy: rgba(18, 29, 57, 1);
+    --dark-navy-faded: rgba(18, 29, 57, .6);
+    --dark-navy-pale: rgba(18, 29, 57, .35);
+
+    --light-blue: rgba(111, 123, 155, 1);
+    --light-blue-faded: rgba(111, 123, 155, .6);
+    --light-blue-pale: rgba(111, 123, 155 .35);
+
+
+    --baby-blue: rgba(175, 185, 210, 1);
+    --baby-blue-faded: rgba(175, 185, 210, .7);
+    --baby-blue-pale: rgba(175, 185, 210 .35);
+
+    --blue-white: rgba(226, 232, 244, 1);
+
+    --nearly-white: rgba(242, 244, 251, 1);
 }
 
 
@@ -37,7 +33,7 @@
 }
 
 .label-title {
-    color: var(--footer-bg-color);
+    color: var(--dark-navy);
     margin-top: .75em;
 
     font-family: Work Sans, sans-serif;
@@ -108,7 +104,7 @@
 .submit-btn:hover {
     width: 55vw;
     height: 3em;
-    background-color: var(--footer-bg-color);
+    background-color: var(--dark-navy);
     color: white;
     border: 0 solid white;
 }
@@ -116,7 +112,7 @@
 .submit-btn:active {
     width: 55vw;
     height: 3em;
-    background-color: var(--footer-bg-color);
+    background-color: var(--dark-navy);
     color: white;
     border: .1em solid var(--box-color);
 }

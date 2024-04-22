@@ -1,0 +1,131 @@
+:root {
+    --dark-navy: rgba(18, 29, 57, 1);
+    --dark-navy-faded: rgba(18, 29, 57, .6);
+    --dark-navy-pale: rgba(18, 29, 57, .35);
+
+    --light-blue: rgba(111, 123, 155, 1);
+    --light-blue-faded: rgba(111, 123, 155, .6);
+    --light-blue-pale: rgba(111, 123, 155 .35);
+
+
+    --baby-blue: rgba(175, 185, 210, 1);
+    --baby-blue-faded: rgba(175, 185, 210, .7);
+    --baby-blue-pale: rgba(175, 185, 210 .35);
+
+    --blue-white: rgba(226, 232, 244, 1);
+
+    --nearly-white: rgba(242, 244, 251, 1);
+}
+
+/* navigation bar */
+nav {
+    display: flex;
+    padding-right: 30px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a{
+    color: var(--nearly-white);
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0px 26px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 3px 10px var(--baby-blue);  
+    font-family: "Work Sans", sans-serif;
+}
+
+nav li a:hover {
+    text-shadow: 0 0 16px var(--baby-blue), 0 0 20px var(--baby-blue), 0 0 30px var(--baby-blue);
+    transition: text-shadow 0.2s ease;  
+}
+
+nav li a.active {
+    text-shadow: 0 0 16px var(--baby-blue), 0 0 20px var(--baby-blue), 0 0 30px var(--baby-blue);
+    font-style: italic;
+}
+
+.nav-dropdown:hover .nav-dropdown-content {
+    display: block;
+}
+
+.nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--dark-navy);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1;
+}
+
+.nav-dropdown-content a {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+/* footer content */
+footer {
+    height: 160px;
+    display: flex;
+    background-color: var(--dark-navy);
+    border-top: .05em var(--nearly-white) solid;
+    align-items: center;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-content {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    align-content: space-between;
+    gap: 15vw;
+}
+
+.footer-link, .footer-left p, .footer-center p {
+    font-family: "Work Sans", Arial;
+    color: var(--blue-white);
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+}
+ 
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+    gap: 60px;
+}
+
+.links-left, .links-right {
+    display: flex;
+    flex-direction: column;
+    line-height: 300%;
+}
+
+.footer-logo {
+    max-width: auto;
+    max-height: 90px;
+    margin-bottom: -1em;
+}
+
+.home-content p {
+    font-size: 18px;
+}
+
+.home-page-about {
+    width: 76%;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    margin: auto;
+}

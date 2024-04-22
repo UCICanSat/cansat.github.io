@@ -1,31 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
-
 :root {
-    --dark-background-color: black;
-    --background-color: #f8fafc;
-    --primary-color: white;
-    --secondary-color: rgb(40, 63, 97);
-    --accent-color: rgba(165, 204, 239, 0.931);
-    --dark-accent-color: rgba(40, 51, 93, 0.802);
-    --nav-bg-color: rgba(0, 0, 0, 0.75);
-    --button-bg-color: rgba(217, 213, 232, 0.135);
-    --button-text-color: rgba(139, 156, 205, 0.341);
-    --panel-bg-color: rgba(210, 218, 235, 0.823);
-    --panel-border-color: rgb(40, 63, 97);
-    --shadow-color: rgba(43, 44, 45, 0.584);
-    --footer-bg-color: rgb(4, 1, 23);
-    --footer-text-color: rgba(217, 222, 234, 1);
-    --footer-text-color-faded: rgba(217, 222, 234, .25);
-    --container-background: rgba(171, 180, 207, .405);
-    --box-color: rgb(166, 176, 200);
-    --box-border-color: rgb(91, 100, 122);
+    --dark-navy: rgba(18, 29, 57, 1);
+    --dark-navy-faded: rgba(18, 29, 57, .6);
+    --dark-navy-pale: rgba(18, 29, 57, .35);
+
+    --light-blue: rgba(111, 123, 155, 1);
+    --light-blue-faded: rgba(111, 123, 155, .6);
+    --light-blue-pale: rgba(111, 123, 155 .35);
+
+
+    --baby-blue: rgba(175, 185, 210, 1);
+    --baby-blue-faded: rgba(175, 185, 210, .7);
+    --baby-blue-pale: rgba(175, 185, 210 .35);
+
+    --blue-white: rgba(217, 222, 234, 1);
+
+    --nearly-white: rgba(242, 244, 251, 1);
 }
 
 /* join page banner */
 .join-title {
-    background-image: linear-gradient(to bottom, var(--footer-text-color-faded), var(--footer-text-color)),
-    url('../banner-images/rocket-bg.avif');
+    background-image: linear-gradient(to bottom, var(--dark-navy), var(--blue-white)), url("../banner-images/rocket-bg.avif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,13 +32,13 @@
     margin-top: 0;
     margin: auto;  
     align-items: center;
-    background-color: var(--footer-text-color);
+    background-color: var(--blue-white);
 }
 
 /* disclaimer bubble */
 .disclaimer {
-    background-color: var(--box-color);
-    border: .2em var(--footer-bg-color) solid; 
+    background-color: var(--light-blue-faded);
+    border: .2em var(--dark-navy) solid; 
     border-radius: 35px;
     display: flex;
     flex-direction: column;
@@ -55,7 +49,7 @@
 }
 
 .disclaimer-text {
-    color: var(--footer-bg-color);
+    color: var(--dark-navy);
     font-size: 1.8em;
     font-weight: 400;
     align-self: center;
@@ -69,7 +63,7 @@
 
 /* pathway section */
 .join-subtitle {
-    color: var(--footer-bg-color);
+    color: var(--dark-navy);
     font-size: 2.4em;
     font-weight: 700;
     align-self: center;
@@ -97,13 +91,13 @@
     justify-content: left;
     padding: 1em;
 
-    border: .2em solid var(--box-border-color);
+    border: .2em solid var(--light-blue);
     border-radius: 1.5em;
 
     background-color: rgb(240, 244, 252);
     white-space: normal;
     min-width: 20vw;
-    box-shadow: 6px 6px 8px var(--box-color);
+    box-shadow: 6px 6px 8px var(--light-blue-pale);
     margin-bottom: 1em;
 }
 .pathway:hover {
@@ -116,7 +110,7 @@
 }
 
 .pathway-name {
-    color: var(--footer-bg-color);
+    color: var(--dark-navy);
     font-size: 1.4em;
     font-weight: 700;
     align-self: center;
@@ -125,7 +119,7 @@
 }
 
 p, .required-skills {
-    color: var(--footer-bg-color);
+    color: var(--dark-navy);
     font-size: .8em;
     font-weight: 400;
     align-self: center;
@@ -133,7 +127,7 @@ p, .required-skills {
 }
 
 .pathway-skills-header {
-    color: var(--footer-bg-color);
+    color: var(--dark-navy);
     font-size: 1em;
     line-height: 0;
     font-weight: 700;
@@ -153,9 +147,9 @@ p, .required-skills {
 
 /* question */
 .question {
-    background-color:  var(--footer-text-color);
+    background-color:  var(--blue-white);
 
-    color: var(--footer-bg-color);
+    color: var(--dark-navy);
     font-size: 1.5em;
     font-weight: 500;
     font-family: "Work Sans", Arial;
@@ -181,7 +175,7 @@ p, .required-skills {
 }
 
 .answer {
-    color: var(--footer-bg-color);
+    color: var(--dark-navy);
     font-size: 1.1em;
     font-weight: 400;
     font-family: "Work Sans", Arial;
@@ -189,14 +183,6 @@ p, .required-skills {
 }
 
 /* testimonials */
-.testimonials-header {
-    color: var(--footer-bg-color);
-    font-size: 2.4em;
-    font-weight: 700;
-    align-self: center;
-    font-family: "Work Sans", Arial;
-}
-
 .testimonials-section {
     width: 76%;
     margin: auto;
@@ -216,36 +202,38 @@ p, .required-skills {
 }
 
 .testimonial {
-    border: .2em var(--footer-bg-color) solid;
+    border: .2em var(--dark-navy) solid;
     border-radius: 1.5em;
     padding: 1em;
-    background-color: var(--box-color);
+    background-color: var(--light-blue-faded);
     white-space: normal;
-    min-width: 20vw;
-    box-shadow: 6px 6px 8px var(--box-color);
+    min-width: 25vw;
+    box-shadow: 6px 6px 8px var(--light-blue-faded);
     margin-bottom: 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .testimonial-img {
-    width: 150%; 
+    width: 100%; 
     height: auto; 
     clip-path: circle();
     object-fit: cover;
-    margin-left: -25%;
     margin-bottom: 1em;
 }
 
 .testimonial-name {
-    color: var(--footer-bg-color);
+    color: var(--dark-navy);
     font-size: 1.5em;
     font-weight: 500;
     font-family: "Work Sans", Arial;
     margin: 0;
-    text-align: center;
 }
 
 .testimonial-team {
-    color: var(--footer-bg-color);
+    color: var(--dark-navy);
     font-size: 1em;
     font-weight: 400;
     font-family: "Work Sans", Arial;
@@ -254,3 +242,7 @@ p, .required-skills {
     text-align: center;
 }
 
+.testimonial-paragraph {
+    color: var(--dark-navy);
+    font-size: .9em;
+}
