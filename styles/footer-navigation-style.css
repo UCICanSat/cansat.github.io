@@ -75,14 +75,11 @@ footer {
     background-color: var(--dark-navy);
     border-top: .05em var(--nearly-white) solid;
     align-items: center;
-    margin: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 1em 3em;
 }
 
 .footer-content {
     display: flex;
-    margin: auto;
     align-items: center;
     align-content: space-between;
     gap: 15vw;
@@ -94,6 +91,8 @@ footer {
     font-weight: 300;
     font-size: 20px;
     text-decoration: none;
+    /* height: fit-content; */
+    
 }
  
 .footer-center {
