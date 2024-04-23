@@ -19,7 +19,7 @@
 
 /* join page banner */
 .join-title {
-    background-image: linear-gradient(to bottom, var(--dark-navy), var(--blue-white)), url("../banner-images/rocket-bg.avif");
+    background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-less-opaque)), url("../banner-images/9.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

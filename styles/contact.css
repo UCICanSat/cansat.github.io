@@ -18,8 +18,17 @@
 }
 
 
+.contact-title {
+    background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-less-opaque)), url('../banner-images/14.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;  
+}
+
 /* form */
 .form-content {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -23,7 +23,7 @@ h2, p {
     font-family: "Work Sans", Arial;
 }
 .team-title {
-    background-image: linear-gradient(to bottom, var(--baby-blue), var(--dark-navy)), url("../banner-images/team-photo.jpg");
+    background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-less-opaque)), url("../banner-images/17.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
