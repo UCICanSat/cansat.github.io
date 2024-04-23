@@ -94,6 +94,10 @@
     border-radius: 30px;
 }
 
+.team-container p {
+    color: rgb(236, 236, 241);
+}
+
 .team-container-white {
     width: 76%;
     margin: auto;  
