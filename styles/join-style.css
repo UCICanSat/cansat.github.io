@@ -20,15 +20,19 @@
 /* join page banner */
 .join-title {
     background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-less-opaque)), url("../banner-images/9.png");
+    background-attachment: fixed;  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 95vh;  
+    cursor: url(../rocket.png), auto;  
+
 }
 
 
 /* join page main content */
 .join-content {
+    padding-top: 60px;
     margin-top: 0;
     margin: auto;  
     align-items: center;

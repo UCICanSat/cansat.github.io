@@ -52,10 +52,13 @@
 /* sponsors page banner */
 .sponsors-title {
     background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-less-opaque)), url('../banner-images/rocket-bg.avif');
+    background-attachment: fixed;  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 95vh;  
+    height: 95vh; 
+    cursor: url(../rocket.png), auto;  
+ 
 }
 
 /* sponsors grid */

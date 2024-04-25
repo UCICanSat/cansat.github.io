@@ -23,10 +23,13 @@ p, li {
 }
 .gallery-title {
     background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-less-opaque)), url("../banner-images/18.png");
+    background-attachment: fixed;  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 95vh;  
+    cursor: url(../rocket.png), auto;  
+
 }
 .gallery-content {
     background-color: var(--nearly-white);

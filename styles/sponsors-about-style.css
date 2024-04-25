@@ -20,10 +20,13 @@
 /* home page title */
 .home-title {
     background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-less-opaque)), url("../banner-images/10.png");
+    background-attachment: fixed;  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;  
+    cursor: url(../rocket.png), auto;  
+
 }
 
 /* home page main content */
