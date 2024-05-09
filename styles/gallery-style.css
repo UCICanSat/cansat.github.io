@@ -36,6 +36,7 @@ p, li {
 
 .gallery-item p {
     margin-top: 0px;
+    color: var(--light-blue);
 }
 
 .gallery-item li {
