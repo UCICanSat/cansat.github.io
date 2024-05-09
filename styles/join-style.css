@@ -1,6 +1,6 @@
 /* join page banner */
 .join-title {
-    background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-less-opaque)), url("../banner-images/9.png");
+    background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-faded)), url("../banner-images/9.png");
     background-attachment: fixed;  
     background-size: cover;
     background-position: center;
@@ -17,8 +17,8 @@
     margin: auto;  
     align-items: center;
     background-color: var(--blue-white);
-        padding-top: 60px;
-    margin-bottom: 80px;
+    padding-top: 60px;
+    /* margin-bottom: 80px; */
 }
 
 /* disclaimer bubble */

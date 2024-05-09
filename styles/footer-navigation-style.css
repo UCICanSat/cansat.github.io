@@ -51,8 +51,7 @@ nav li a.active {
 
 /* footer content */
 footer {
-    height: 160px;
-    display: flex;
+    height: fit-content;
     background-color: var(--dark-navy);
     border-top: .05em var(--nearly-white) solid;
     align-items: center;
@@ -62,8 +61,10 @@ footer {
 .footer-content {
     display: flex;
     align-items: center;
-    align-content: space-between;
-    gap: 15vw;
+    align-content: center;
+    justify-items: center;
+    gap: 10%;
+    justify-content: center;
 }
 
 .footer-link, .footer-left p, .footer-center p {
@@ -71,9 +72,7 @@ footer {
     color: var(--blue-white);
     font-weight: 300;
     font-size: 20px;
-    text-decoration: none;
-    /* height: fit-content; */
-    
+    text-decoration: none;    
 }
  
 .footer-center {
@@ -83,13 +82,13 @@ footer {
 }
 
 .footer-right {
-    display: flex;
-    gap: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30%;
+    row-gap: 20%;    
 }
 
 .links-left, .links-right {
-    display: flex;
-    flex-direction: column;
     line-height: 300%;
 }
 

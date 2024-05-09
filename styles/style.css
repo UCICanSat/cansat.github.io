@@ -1,32 +1,32 @@
 :root {
     --dark-navy: rgba(18, 29, 57, 1);
-    --dark-navy-less-opaque: rgba(18, 29, 57, 0.503);
-
     --dark-navy-faded: rgba(18, 29, 57, .6);
     --dark-navy-pale: rgba(18, 29, 57, .35);
 
     --light-blue: rgba(111, 123, 155, 1);
     --light-blue-faded: rgba(111, 123, 155, .6);
-    --light-blue-pale: rgba(111, 123, 155 .35);
+    --light-blue-pale: rgba(111, 123, 155, .35);
 
 
     --baby-blue: rgba(175, 185, 210, 1);
     --baby-blue-less-opaque: rgba(225, 227, 234, 0.625);
 
     --baby-blue-faded: rgba(175, 185, 210, .7);
-    --baby-blue-pale: rgba(175, 185, 210 .35);
+    --baby-blue-pale: rgba(175, 185, 210, .35);
 
     --blue-white: rgba(226, 232, 244, 1);
 
     --nearly-white: rgba(242, 244, 251, 1);
 }
+
+
 html, body {
     background-color: var(--blue-white);
     align-items: center;
     text-align: left;
     margin: 0;  
     padding: 0;  
-    margin-top: .1em;
+    margin-top: .2em;
     color: var(--nearly-white);
     /* cursor:url(../rocket.png), auto; */
 }
@@ -106,7 +106,7 @@ a:hover {
 
 /* home page title */
 .home-title {
-    background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-less-opaque)), url("../banner-images/6.png");
+    background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-faded)), url("../banner-images/6.png");
     background-attachment: fixed;  
     background-size: cover;
     background-position: center;
@@ -187,7 +187,7 @@ a:hover {
 .team-container-white {
     width: 76%;
     margin: auto;  
-    background-color: white;
+    background-color: var(--nearly-white);
     border: 5px solid;
 
     border-radius: 20px;

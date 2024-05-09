@@ -2,7 +2,7 @@ p, li {
     font-family: "Work Sans", Arial;
 }
 .gallery-title {
-    background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-less-opaque)), url("../banner-images/18.png");
+    background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-faded)), url("../banner-images/18.png");
     background-attachment: fixed;  
     background-size: cover;
     background-position: center;
