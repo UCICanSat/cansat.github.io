@@ -1,5 +1,7 @@
 :root {
     --dark-navy: rgba(18, 29, 57, 1);
+    --dark-navy-less-opaque: rgba(18, 29, 57, 0.503);
+
     --dark-navy-faded: rgba(18, 29, 57, .6);
     --dark-navy-pale: rgba(18, 29, 57, .35);
 
@@ -9,6 +11,8 @@
 
 
     --baby-blue: rgba(175, 185, 210, 1);
+    --baby-blue-less-opaque: rgba(225, 227, 234, 0.625);
+
     --baby-blue-faded: rgba(175, 185, 210, .7);
     --baby-blue-pale: rgba(175, 185, 210 .35);
 
@@ -16,7 +20,6 @@
 
     --nearly-white: rgba(242, 244, 251, 1);
 }
-
 html, body {
     background-color: var(--blue-white);
     align-items: center;
@@ -109,7 +112,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;  
-    cursor: url(../rocket.png), auto;  
+    cursor: url(../buttons/rocket.png), auto;
 }
 
 /* home page main content */
