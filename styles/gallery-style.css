@@ -1,6 +1,18 @@
 p, li {
     font-family: "Work Sans", Arial;
+    font-size: 18px;
+    color: var(--light-blue); 
+    /* font-family: Arial; */
 }
+
+h5 {
+    font-family: "Work Sans", Arial;
+    font-size: 20px;
+    color: var(--light-blue); 
+
+}
+
+
 .gallery-title {
     background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-faded)), url("../banner-images/18.png");
     background-attachment: fixed;  
