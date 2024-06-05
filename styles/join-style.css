@@ -12,6 +12,7 @@
 
 a {
     color:rgb(38, 56, 92);
+    text-decoration: underline;
 }
 
 p {
@@ -48,6 +49,18 @@ p {
     align-self: center;
     font-family: "Work Sans", Arial;
     line-height: 0;
+}
+
+
+.mini-disclaimer-text {
+    color: var(--dark-navy);
+    font-size: 1.4em;
+    font-weight: 400;
+    align-self: center;
+    font-family: "Work Sans", Arial;
+    /* line-height: 0; */
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .disclaimer-text strong{
@@ -110,7 +123,7 @@ p {
     font-weight: 700;
     align-self: center;
     font-family: "Work Sans", Arial;
-    line-height: 0;
+    /* line-height: 0; */
 }
 
 p, .required-skills {
