@@ -79,23 +79,23 @@ p {
     margin-bottom: 0;
 }
 
-.first-pathways-row {
-    width: 76%;
-    margin: auto;
-    display: flex;
-}
-
-.second-pathways-row {
-    width: 51%;
-    margin: auto;
-    display: flex;
-}
-
 .pathways-section {
     padding: 50px 0;
 }
 
+
+.pathways {
+    width: 76%;
+    margin: auto;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center; /* Optional: centers the items */
+}
+
+
 .pathway {
+    flex: 1 1 calc(33.333% - 4em);
     width: 100%;
     margin: 2em;
     justify-content: left;
@@ -141,6 +141,27 @@ p, .required-skills {
     font-weight: 700;
     align-self: center;
     font-family: "Work Sans", Arial;
+}
+
+/* mobile screens */
+@media (max-device-width: 750px) {
+    .pathways {
+        flex-direction: column;
+        white-space: normal;
+
+        overflow: auto;
+        white-space: nowrap;
+
+        height: 55vh;
+    }
+
+    .pathway {
+        font-size: 1.4em;
+        width: 50vw;
+
+        flex: 1 1 100%;
+        font-size: 1.4em;
+    }
 }
 
 /* faq drop down */
@@ -253,4 +274,23 @@ p, .required-skills {
 .testimonial-paragraph {
     color: var(--dark-navy);
     font-size: .9em;
+}
+
+
+/* mobile screens */
+@media (max-device-width: 750px) {
+
+    .testimonials {
+        white-space: normal;
+
+        overflow: auto;
+        white-space: nowrap;
+
+        width: 100%;
+    }
+
+    .testimonial {
+        font-size: 1.5em;
+        min-width: 55vw;
+    }
 }

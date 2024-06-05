@@ -123,6 +123,19 @@ a:hover {
     cursor: url(../buttons/rocket.png), auto;
 }
 
+/* mobile screens */
+@media (max-device-width: 750px) {
+    .home-title {
+        background-attachment: none;  
+        height: auto;
+        width: 100vw;
+        background-size: contain;
+        background-position: top;
+    }
+}
+
+
+
 /* home page main content */
 .home-content {
     margin: auto;  
