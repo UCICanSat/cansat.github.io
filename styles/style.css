@@ -73,7 +73,7 @@ header {
 h1 {
     font-size: 100px;
     padding-top: 3.1em;
-    color: var(--primary-color); 
+    color: var(--nearly-white); 
     font-family: 'Bungee', Arial;
     font-weight: bold;
     text-shadow: 2px 2px 6px var(--dark-navy-faded);   

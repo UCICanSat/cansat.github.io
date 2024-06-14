@@ -10,7 +10,7 @@
 
 /* thank you bubble */
 .bubble {
-    background-color: var(--dusty-blue);
+    background-color: var(--baby-blue);
     border: .2em var(--dark-navy) solid; 
     border-radius: 35px;
     display: flex;
