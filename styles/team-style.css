@@ -9,46 +9,93 @@ h2, p {
     background-repeat: no-repeat;
     height: 100vh;  
     cursor: url(../buttons/rocket.png), auto;
+}
 
+.team-title-24 {
+    background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-faded)), url("../team/24-images/team-photo.JPG");
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;  
+    cursor: url(../buttons/rocket.png), auto;
 }
 
 /* team page main content */
 .team-content {
     background-color: var(--nearly-white);
-    padding-top: 60px;
+    padding-top: 3em;
 }
-
+ 
 .team-type-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 4em;
     width: 76%;
     margin: auto;
-    padding-bottom: 100px;
+    padding-bottom: 4em;
     display: flex;
     flex-wrap: wrap;
 }
 
 .team-member {
-    width: 28%;
-    margin: 30px;  
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    padding: 1.5em;
+    width: 18em;
+    transition: transform 0.3s;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
 }
 
 .team-member img {
     border-radius: 50%;  
-    height: 300px;
-    width: 300px;
+    height: 15em;
+    width: 15em;
     object-fit: cover;
-    border: 6px solid;
+    border: .35em solid;
     border-color: rgb(59, 75, 113);
-    margin-bottom: 8px;
 }
 
 .team-member h2 {
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
+
 .team-member p {
-    font-size: 18px;
-    margin: 0px;
-    margin-top: 10px;
+    font-size: 1em;
+    margin: 0;
     color: var(--light-blue);
+}
+
+/* Styling for the section heading */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 750px) {
+    .team-type-container {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .team-member {
+        width: 50%;
+    }
+
+    .team-member img {
+        border-radius: 50%;  
+        height: 10em;
+        width: 10em;
+        object-fit: cover;
+        border: .25em solid;
+        border-color: rgb(59, 75, 113);
+    }
 }
