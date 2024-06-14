@@ -41,10 +41,10 @@ h2, p {
 
 .team-member {
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px var(--light-blue-faded);
     text-align: center;
     padding: 1.5em;
-    width: 18em;
+    width: 16em;
     transition: transform 0.3s;
 }
 
@@ -54,11 +54,11 @@ h2, p {
 
 .team-member img {
     border-radius: 50%;  
-    height: 15em;
-    width: 15em;
+    height: 14em;
+    width: 14em;
     object-fit: cover;
     border: .35em solid;
-    border-color: rgb(59, 75, 113);
+    border-color: var(--light-blue);
 }
 
 .team-member h2 {
@@ -80,7 +80,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 950px) {
     .team-type-container {
         align-items: center;
         justify-content: center;
