@@ -1,0 +1,88 @@
+.gallery-title {
+    background-image: linear-gradient(to bottom, var(--baby-blue-less-opaque), var(--dark-navy-faded)), url("../gallery/images/24/5.jpeg");
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;  
+    cursor: url(../buttons/rocket.png), auto;
+}
+
+.gallery-content {
+    background-color: var(--nearly-white);
+}
+
+.gallery-content h2 {
+    padding-top: 1em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+
+    width: 76%;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 3em;
+}
+
+.gallery-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+    background-color: var(--light-blue-pale);
+    border-radius: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: .2em solid var(--light-blue);
+    padding: 1.5em;
+    transition: transform 0.7s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05)
+}
+
+.gallery-item img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 8px;
+    /* flex: 1 1 40%; */
+    object-fit: contain;
+}
+
+.gallery-item-description {
+    flex: 1 1 60%;
+}
+
+.gallery-item-description h3 {
+    font-size: 1.8em;
+    color: var(--dark-navy);
+    margin-bottom: 10px;
+}
+
+.gallery-item-description p {
+    font-size: 1em;
+    color: var(--medium-navy);
+    line-height: 1.6;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .gallery-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gallery-item img {
+        flex: none;
+        width: 100%;
+    }
+
+    .gallery-item-description {
+        flex: none;
+        width: 100%;
+    }
+}
