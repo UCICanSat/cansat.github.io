@@ -107,27 +107,3 @@
     height: auto;
 }
 
-/* home page collage container */
-.home-page-collage {
-    padding-top: 20px;
-    padding-bottom: 80px;
-    margin: auto;
-}
-
-.collage-container {
-    width: 76%;
-    margin: auto;
-}
-
-.home-collage {
-    display: flex;
-    flex-wrap: wrap;  
-    justify-content: center;
-    align-items: center;
-}
-
-.home-collage img {
-    max-width: 100%; 
-    max-height: 250px;  
-    margin: 6px;
-}

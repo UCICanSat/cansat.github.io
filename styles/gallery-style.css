@@ -21,8 +21,8 @@ h5 {
     background-repeat: no-repeat;
     height: 95vh;  
     cursor: url(../buttons/rocket.png), auto;
-
 }
+
 .gallery-content {
     background-color: var(--nearly-white);
 }
